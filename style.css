@@ -1,0 +1,282 @@
+
+/*HEADER*/
+    .directionRow {
+    display: flex;    
+	flex-direction: row;
+    align-items: flex-start;
+    margin-top: auto;
+    }
+/* NAVIGATION*/
+    .logo {
+    align-items: left;
+    justify-content:flex-start;
+    position:fixed;
+    width: 61.09px;
+    height: 19px;
+    margin-left: 16px;
+    margin-top: 15px;
+    }
+
+    .texte {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    height:48px;
+    color: #000;
+    }
+
+   .nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-left: 1100px;
+    margin-top: 10px;
+    width: 220px;
+    height: 19px;
+    list-style-type: none ;
+    
+      }
+
+a:hover {
+color: #0065FC;
+text-decoration-line: overline;
+}
+
+/* SECTION 1*/
+
+ h2{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+margin-left: 16px;
+color: #000000;
+margin-bottom: -10px;
+ }
+
+ h3{
+font-family: 'Raleway';
+font-style:normal;
+font-weight:lighter;
+font-size: 16px;
+margin-left: 16px;
+line-height: 19px;   
+ }
+
+ .container {
+width: 385px;
+height: 100px;
+display:flex;
+align-items:flex-start;
+justify-content: flex-start;
+padding-left: 15px;
+margin-top: 20px;
+padding-right: 10px;
+}
+/* SECTION 2 */
+
+form {
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+    height: 45px;     
+}
+
+form input{
+    flex: 1;  
+    border: none;
+    outline: none; 
+    text-align: center;
+    width: 250px;
+    font-size: 18px;
+    color: #000000;
+}
+
+form button {
+    border: 1px solid #0065FC;
+    height: 45px;  
+    width: 125px;
+    border-radius: 0px 15px  15px 0px;
+    background: #0065FC;
+    font-size: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.icon {
+position: absolute;
+left: 15px;
+top: 10px;
+}
+
+.iconborder {
+width: 45px;
+position: absolute;
+padding-right: -30px;
+height: 45px;
+display: flex;
+border: 1px solid rgba(242, 242, 242, 1);
+border-radius: 15px 0px 0px 15px; 
+background: rgba(242, 242, 242, 1);
+}  
+.texteInfo {
+padding-left: 50px;  
+
+}
+/*  SECTION 3 */
+
+.color{
+    color: #0065FC;
+    }
+.colorgrey {
+   color: rgba(242, 242, 242, 1); 
+}    
+
+.containerSection3 {
+    display: flex;    
+	flex-direction: row;
+    align-items: flex-start;
+    margin-top: -30px;
+    }
+    
+.btnEco {
+    background: none; 
+    border: 2px solid rgba(242, 242, 242, 1);
+    border-radius: 25px;
+    color:#000; 
+    padding: 12px 16px; 
+    font-size: 18px;
+    margin: 10px;
+    display: flex;    
+    gap: 10px;
+    align-items: center;   
+} 
+
+.btnFamilial{
+background: none; 
+border: 2px solid rgba(242, 242, 242, 1);
+border-radius: 25px;
+color:#000; 
+padding: 12px 16px; 
+font-size: 18px;
+margin: 10px;
+display: flex;
+gap: 10px;
+align-items: center;
+
+}
+
+.btnRomantique {
+    background: none; 
+    border: 2px solid rgba(242, 242, 242, 1);
+    border-radius: 25px;
+    color:#000; 
+    padding: 12px 16px; 
+    font-size: 18px;
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.btnAnimaux {
+    background: none; 
+    border: 2px solid rgba(242, 242, 242, 1);
+    border-radius: 25px;
+    color:#000; 
+    padding: 12px 16px; 
+    font-size: 18px;
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center; 
+}
+
+ .boutton:hover {
+ background-color:  rgba(222, 235, 255, 1);
+}
+
+/* SECTION 4*/
+
+.borderforInfoicon {
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    left: 23px;
+    border-radius:100px;
+    border: 1px solid #d9d9d9;
+    align-items: center;
+}
+
+.iconinfo {
+ color: #0065FC;   
+ margin-top: 3px;
+ font-size: 10px;
+ position: absolute;
+ padding-left: 7px;
+}
+
+/* SECTION 5*/
+.box{
+    height: 626px;
+    width: 880px;
+    position: absolute;
+    left: 20px;
+    border-radius: 20px;
+    background: rgba(242, 242, 242, 1);       
+}  
+
+.titre {
+position: absolute;
+left: 15px ;
+top: 10px;
+}
+
+.card {
+    height: 245px;
+    width: 250px;
+    left: 20px;
+    top: 0px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 70px;
+}
+
+.img{
+padding-left: 6px;
+padding-top: 5px;
+border-radius:20px 20px 0px 0px ;
+width: 95%;
+}
+.titreCard {
+position: absolute; 
+padding-top: 225px;
+padding-left: 35px;
+line-height: 1px;
+
+}
+
+.card2 {
+    height: 245px;
+    width: 250px;
+    left: 20px;
+    top: 0px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 70px;   
+}
+
+.img2 {
+    padding-left: 6px;
+    padding-top: 5px;
+    border-radius:20px 20px 0px 0px ;
+    width: 95%;
+}
+
